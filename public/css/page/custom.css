@@ -1,0 +1,38 @@
+label.requerido:after{
+    content: " *";
+    color: #e73d4a;
+}
+
+/*  Codigo del login  */
+
+
+  .login,
+  .image {
+    min-height: 100vh;
+  }
+  
+  .bg-image {
+    /* background-image: url("/img/login/bg.jpg"); */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .login-heading {
+    font-weight: 300;
+  }
+  
+  .btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+    border-radius: 2rem;
+  }
+
+  .btn-brdr {
+    border-color:#ddd;
+  }
+ 
+  
+  .login-sec h2{margin-bottom:30px; font-weight:800; font-size:30px; color: #495057;}
+  .login-sec h2:after{content:" "; width:100px; height:5px; background:#3490dc; display:block; margin-top:20px; border-radius:3px; margin-left:auto;margin-right:auto}
+
